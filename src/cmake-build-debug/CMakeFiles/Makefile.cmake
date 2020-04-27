@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ADS.dir/DependInfo.cmake"
+  "CMakeFiles/ADS_HW.dir/DependInfo.cmake"
   )

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Multiplicator.cpp
+Multiplicator.h
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Multiplicator.h
+
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Multiplicator.h
+Number.h
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Number.h
+ctime
+-
+
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Number.cpp
+Number.h
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Number.h
+
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Number.h
+string
+-
+vector
+-
+algorithm
+-
+iostream
+-
+
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/main.cpp
+iostream
+-
+Multiplicator.h
+C:/Users/scrapy.py (GAMING)/CLionProjects/ADS_HW/Multiplicator.h
+memory
+-
+fstream
+-
+

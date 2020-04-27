@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS"
+CMAKE_SOURCE_DIR = "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS_HW"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS_HW\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS\cmake-build-debug\CMakeFiles" "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS_HW\cmake-build-debug\CMakeFiles" "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS_HW\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\scrapy.py (GAMING)\CLionProjects\ADS_HW\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ADS
+# Target rules for targets named ADS_HW
 
 # Build rule for target.
-ADS: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 ADS
-.PHONY : ADS
+ADS_HW: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ADS_HW
+.PHONY : ADS_HW
 
 # fast build rule for target.
-ADS/fast:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/build
-.PHONY : ADS/fast
+ADS_HW/fast:
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/build
+.PHONY : ADS_HW/fast
 
 Multiplicator.obj: Multiplicator.cpp.obj
 
@@ -128,7 +128,7 @@ Multiplicator.obj: Multiplicator.cpp.obj
 
 # target to build an object file
 Multiplicator.cpp.obj:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/Multiplicator.cpp.obj
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/Multiplicator.cpp.obj
 .PHONY : Multiplicator.cpp.obj
 
 Multiplicator.i: Multiplicator.cpp.i
@@ -137,7 +137,7 @@ Multiplicator.i: Multiplicator.cpp.i
 
 # target to preprocess a source file
 Multiplicator.cpp.i:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/Multiplicator.cpp.i
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/Multiplicator.cpp.i
 .PHONY : Multiplicator.cpp.i
 
 Multiplicator.s: Multiplicator.cpp.s
@@ -146,7 +146,7 @@ Multiplicator.s: Multiplicator.cpp.s
 
 # target to generate assembly for a file
 Multiplicator.cpp.s:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/Multiplicator.cpp.s
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/Multiplicator.cpp.s
 .PHONY : Multiplicator.cpp.s
 
 Number.obj: Number.cpp.obj
@@ -155,7 +155,7 @@ Number.obj: Number.cpp.obj
 
 # target to build an object file
 Number.cpp.obj:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/Number.cpp.obj
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/Number.cpp.obj
 .PHONY : Number.cpp.obj
 
 Number.i: Number.cpp.i
@@ -164,7 +164,7 @@ Number.i: Number.cpp.i
 
 # target to preprocess a source file
 Number.cpp.i:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/Number.cpp.i
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/Number.cpp.i
 .PHONY : Number.cpp.i
 
 Number.s: Number.cpp.s
@@ -173,7 +173,7 @@ Number.s: Number.cpp.s
 
 # target to generate assembly for a file
 Number.cpp.s:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/Number.cpp.s
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/Number.cpp.s
 .PHONY : Number.cpp.s
 
 main.obj: main.cpp.obj
@@ -182,7 +182,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -191,7 +191,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -200,7 +200,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\ADS.dir\build.make CMakeFiles/ADS.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\ADS_HW.dir\build.make CMakeFiles/ADS_HW.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... ADS
+	@echo ... ADS_HW
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Multiplicator.obj
