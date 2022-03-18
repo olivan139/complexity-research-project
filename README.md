@@ -1,1 +1,1 @@
-# dsba-ads2020-hw1
+# Research project to check the complexity of 3 multiplication algorithms 
